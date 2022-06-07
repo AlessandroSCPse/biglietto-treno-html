@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-item {
+    margin: 20px 10px;
+    font-size: 22px;
+}
+
+.ticket {
+    font-size: 25px;
+    margin-top: 20px; 
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- User form -->
+    <div class="user-form">
+        <div class="form-item">
+            <label for="user-name">Nome e cognome</label>
+            <input type="text" id="user-name">
+        </div>
+
+        <div class="form-item">
+            <label for="user-km">Km da percorrere</label>
+            <input type="number" id="user-km">
+        </div>
+        
+        <div class="form-item">
+            <label for="user-age">Fascia d'età</label>
+            <select id="user-age">
+                <option value="maggiorenne">Maggiorenne</option>
+                <option value="minorenne">Minorenne</option>
+                <option value="over">Over 65</option>
+            </select>
+        </div>
+
+        <div class="form-buttons form-item">
+            <button id="generate-btn">Genera</button>
+            <button id="cancel-btn">Annulla</button>
+        </div>
+    </div>
+
+    <!-- User ticket -->
+    <div id="ticket-container" class="ticket hidden">
+        <div>Nome passeggero: <span id="ticket-name"></span></div>
+        <div>Prezzo: <span id="ticket-price"></span> &euro;</div>
+        <div>Offerta: <span id="ticket-offer"></span></div>
+        <div>Carrozza: <span id="ticket-carriage"></span></div>
+        <div>Codice CP: <span id="ticket-cpcode"></span></div>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
